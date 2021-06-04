@@ -1,0 +1,24 @@
+.container .brand-logo{
+    font-family: 'Pacifico', cursive;
+}
+
+.container .judul, .myprofile{
+    font-family: 'Odibee Sans', cursive;
+}
+
+.container-fluid .myprofile{
+    margin-top: 30px;
+}
+
+.msg {
+    width:40%;
+    border: 1px solid;
+    padding: 30px;
+    margin: auto;
+    color: grey;
+}
+.msg-info{
+    border-color: #0288d1;
+    background-color: green;
+    color: white;
+}

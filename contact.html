@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Odibee+Sans&&display=swap" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/mystyle.css"  media="screen,projection"/>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Ilyasa-Web.com | Contact Us</title>
+        <link rel="icon" href="img/icon/icon.png" type="image/gif" sizes="16x16">
+    </head>
+
+    <body>
+    <!-- Navbar -->
+    <div class="navbar-fixed ">
+        <nav class="deep-orange darken-1">
+            <div class="container">
+                <div class="nav-wrapper">
+                <a class="brand-logo">Ilyasa-Web.com</a>
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">format_list_bulleted</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <b>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="announcement.html">Pengumuman</a></li>
+                    <li><a href="register.html">Pendaftaran</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    </b>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Akhir Navbar -->  
+    <!-- sidenav -->
+    <ul class="sidenav deep-orange darken-1" id="mobile-nav">
+        <b>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="announcement.html">Pengumuman</a></li>
+            <li><a href="register.html">Pendaftaran</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </b>
+    </ul>
+    <!-- Akhir sidenav -->
+
+    <!-- Slider -->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+            <img src="img/slider/1.jpg"> <!-- random image -->
+            </li>
+            <li>
+            <img src="img/slider/2.jpg"> <!-- random image -->
+            </li>
+            <li>
+            <img src="img/slider/3.jpg"> <!-- random image -->
+            </li>
+            <li>
+            <img src="img/slider/4.jpg"> <!-- random image -->
+            </li>
+            <li>
+            <img src="img/slider/5.jpg"> <!-- random image -->
+            </li>
+        </ul>
+    </div>
+    <!-- akhir SLider -->
+
+    <!-- Footer -->
+    <footer class="fixed-bottom">
+        <div class="footer-copyright deep-orange darken-1">
+            <div class="container center">
+            <b class="white-text">
+            © 2021 Copyright | Ilyasa-Web.com
+            </b>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Jarak Bawah -->
+    <div class="container transparent-text">
+        br <br>
+        br <br>
+        br <br>
+        br <br>
+        br <br>
+        br <br>
+        br <br>
+        br <br>
+        br <br>
+        br <br>
+        br <br>
+    </div>
+    <!-- Akhir Jarak Bawah -->
+
+    
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      // javascript sidenav
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+        // javascript slider
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+            indicators: false,
+            duration: 700,
+            interval: 3000,
+            height: 450
+        });
+    </script>
+    </body>
+</html>
